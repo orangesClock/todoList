@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html ,body{
+	background-color: antiquewhite;
+}
+
+.header{
+	width: auto;
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content:space-between;
+	align-items:center ;
+}
+
+.logo{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	margin-left: 10px;
+	color: white;
+}
+
+.input{
+	width: 250px;
+	height: 50px;
+	/*line-height: 50px;*/
+	font-size: 22px;
+	color: white;
+	display: flex;
+	justify-content:center;
+	align-items:center ;
+
+}
+
+#write{
+	width:220px ;
+	height: 30px;
+	border-radius: 5px;
+	padding: 0px 11px;
+}
+
+.list  h1{
+	height: 40px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center ;
+}
+
+h1 .title{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	margin-left: 10px;
+	background-color: darkkhaki;
+	padding:0px 5px ;
+	border-radius: 5px;
+}
+
+h1 .num{
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	margin-left: 10px;
+	background-color: skyblue;
+	padding:0px 5px ;
+	border-radius: 5px;
+	color: chartreuse;
+}
+
+   .clist .item{
+	   margin: 5px 10px;
+	   margin-right: 1px;
+	   display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   background-color: cornflowerblue;
+	   border-radius: 5px;
+	   padding: 5px 0px;
+	   position: relative;
+}
+
+.item .checkbox{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	outline: none;
+}
+.item .checkbox input{
+	margin-left: 12px;
+	width: 22px;
+	height: 22px;
+	outline: none;
+}
+.item .content{
+	width:300px ;
+	height: 22px;
+	padding: 0 5px;
+	line-height: 22px;
+}
+.item .delete{
+	margin-right: 10px;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/delete.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.main{
+	width: 375px;
+	background-color: aquamarine;
+}
+
+.item:before{
+	content: "";
+	width: 8px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: black;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+
+
+
+
+
